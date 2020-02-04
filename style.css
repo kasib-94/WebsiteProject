@@ -92,7 +92,7 @@ html {
 header {
   position: relative;
   height: 101vh;
-  background-image: url(/img/Background.png);
+  background-image: url(/Background.png);
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: 55%;
@@ -271,7 +271,7 @@ article .about--container__text h3 {
 }
 
 article .about--container__image {
-  background-image: url(/img/Layer3.png);
+  background-image: url(/Layer3.png);
   height: 33%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -585,7 +585,7 @@ i {
 
 .testimonials {
   height: 100vh;
-  background-image: url(/img/Rectangle.png);
+  background-image: url(/Rectangle.png);
   background-size: 250% 100%;
   background-repeat: no-repeat;
   background-position: 100%;
@@ -686,7 +686,7 @@ i {
   width: 8rem;
   height: 8rem;
   border-radius: 100%;
-  background-image: url(/img/eclipse.png);
+  background-image: url(/eclipse.png);
   background-size: contain;
 }
 
@@ -808,27 +808,27 @@ i {
 }
 
 .portfolio--container div:nth-of-type(7) {
-  background-image: url(/img/Summer-Beach-Party-Flyer-Template-Free-PSD.png);
+  background-image: url(/Summer-Beach-Party-Flyer-Template-Free-PSD.png);
 }
 
 .portfolio--container div:nth-of-type(3) {
-  background-image: url(/img/Nature-Tri-Fold-Brochure-Template-Free-PSD.png);
+  background-image: url(/Nature-Tri-Fold-Brochure-Template-Free-PSD.png);
 }
 
 .portfolio--container div:nth-of-type(2) {
-  background-image: url(/img/Restaurant-Table-Tent-Template-Free-PSD.png);
+  background-image: url(/Restaurant-Table-Tent-Template-Free-PSD.png);
 }
 
 .portfolio--container div:nth-of-type(5) {
-  background-image: url(/img/Construction-Company-Website-Template-Free-PSD-D.png);
+  background-image: url(/Construction-Company-Website-Template-Free-PSD-D.png);
 }
 
 .portfolio--container div:nth-of-type(6) {
-  background-image: url(/img/Creative-White-Business-Card-Free-PSD.png);
+  background-image: url(/Creative-White-Business-Card-Free-PSD.png);
 }
 
 .portfolio--container div:nth-of-type(4) {
-  background-image: url(/img/Professional-Resume-CV-Template-Free-PSD.png);
+  background-image: url(/Professional-Resume-CV-Template-Free-PSD.png);
 }
 
 section.experience {
@@ -1008,20 +1008,20 @@ section.blog .blog--item__h3 {
 }
 
 section.blog .blog--item .img1 {
-  background-image: url(/img/blog-img-1.png);
+  background-image: url(/blog-img-1.png);
 }
 
 section.blog .blog--item .img2 {
-  background-image: url(/img/blog-img-2.png);
+  background-image: url(/blog-img-2.png);
 }
 
 section.blog .blog--item .img3 {
-  background-image: url(/img/blog-img-3.png);
+  background-image: url(/blog-img-3.png);
 }
 
 section.footer {
   height: 100vh;
-  background-image: url(/img/contact-us-bgc.png);
+  background-image: url(/contact-us-bgc.png);
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
