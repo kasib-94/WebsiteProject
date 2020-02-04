@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
 @mixin eclipse {
@@ -51,17 +50,14 @@
   }
 }
 
-
-
 * {
-
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   max-width: 1600px;
   font-size: 10px;
   list-style: none;
-  font-family: 'Nanum Gothic', "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Nanum Gothic", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -70,7 +66,6 @@ body {
 
 html {
   margin: auto;
-
 }
 
 header {
@@ -92,7 +87,7 @@ header {
       width: 100%;
       justify-content: space-evenly;
       line-height: 50px;
-      background-color: #15263E;
+      background-color: #15263e;
 
       li {
         list-style: none;
@@ -110,15 +105,13 @@ header {
             color: #fff;
             background: #2196f3;
           }
-
-
         }
       }
     }
 
     &__toogle {
       display: none;
-      color: #15263E;
+      color: #15263e;
       font-size: 5rem;
       line-height: 5rem;
       position: fixed;
@@ -126,13 +119,11 @@ header {
       right: 15%;
       z-index: 999;
 
-
       i {
         font-size: 5rem;
       }
     }
   }
-
 
   div.header--container {
     height: 100%;
@@ -299,7 +290,7 @@ article {
 section.contacts {
   padding: 1rem 0;
   height: 40vh;
-  background-color: #DCDCDE;
+  background-color: #dcdcde;
 
   .contact {
     height: 100%;
@@ -332,16 +323,13 @@ section.contacts {
         h1 {
           font-size: 1.2rem;
         }
-
       }
     }
-
 
     &--address {
       display: flex;
       height: auto;
       width: 60%;
-
 
       &__img {
         @include eclipse;
@@ -361,10 +349,8 @@ section.contacts {
         h1 {
           font-size: 1.2rem;
         }
-
       }
     }
-
 
     &--email {
       display: flex;
@@ -378,7 +364,6 @@ section.contacts {
         display: flex;
         align-items: center;
         justify-content: center;
-
       }
 
       &__container {
@@ -390,7 +375,6 @@ section.contacts {
         h1 {
           font-size: 1.2rem;
         }
-
       }
     }
   }
@@ -434,7 +418,6 @@ i {
     width: 60%;
     margin: 0 auto;
 
-
     &__item {
       display: flex;
       align-items: center;
@@ -449,7 +432,6 @@ i {
         display: flex;
         align-items: center;
         justify-content: center;
-
       }
 
       h1 {
@@ -464,9 +446,7 @@ i {
         font-size: 1rem;
       }
     }
-
   }
-
 }
 
 .testimonials {
@@ -498,7 +478,7 @@ i {
       line-height: 2.5rem;
 
       &::before {
-        content: '“';
+        content: "“";
         font-size: 6rem;
         position: absolute;
         top: 0%;
@@ -507,15 +487,13 @@ i {
       }
 
       &::after {
-        content: '“';
+        content: "“";
         position: absolute;
         bottom: 0%;
         right: 5%;
         font-size: 6rem;
         width: 100%;
-
       }
-
     }
 
     &__person {
@@ -542,14 +520,11 @@ i {
 
         h2 {
           font-size: 1.5rem;
-          color: #C714D5;
+          color: #c714d5;
         }
       }
     }
-
   }
-
-
 }
 
 .portfolio {
@@ -570,7 +545,6 @@ i {
       font-size: 1.3rem;
       color: #4d4d4d;
     }
-
   }
 
   &--container {
@@ -599,7 +573,7 @@ i {
         padding: 1rem 1rem;
         line-height: 2rem;
         width: 100%;
-        color: #4D4D4D;
+        color: #4d4d4d;
 
         &:hover {
           color: #a91aef;
@@ -611,7 +585,6 @@ i {
       background-size: 100% 100%;
       background-repeat: no-repeat;
       margin-top: 1rem;
-
     }
 
     div:nth-of-type(7) {
@@ -638,8 +611,6 @@ i {
       background-image: url(/img/Professional-Resume-CV-Template-Free-PSD.png);
     }
   }
-
-
 }
 
 section.experience {
@@ -665,14 +636,12 @@ section.experience {
         font-size: 1.5rem;
         letter-spacing: 0.1rem;
         font-weight: 400;
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto", sans-serif;
         text-align: center;
       }
-
     }
 
     &--example {
-
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
@@ -689,7 +658,6 @@ section.experience {
       }
 
       &__rectangle {
-
         height: 5rem;
         width: 1rem;
         background-color: white;
@@ -707,7 +675,6 @@ section.experience {
         order: 1;
         text-align: right;
       }
-
     }
   }
 }
@@ -716,13 +683,12 @@ section.blog {
   height: 150vh;
 
   .blog {
-
     &--container {
       height: 100%;
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 0.8fr 2fr 2fr 2fr;
-      padding: 1rem
+      padding: 1rem;
     }
 
     &--heading {
@@ -731,13 +697,12 @@ section.blog {
 
       &__h1 {
         font-size: 2.5rem;
-        color: #15263E;
+        color: #15263e;
       }
 
       &__h2 {
         font-size: 1.3rem;
-        color: #4D4D4D;
-
+        color: #4d4d4d;
       }
     }
 
@@ -746,11 +711,9 @@ section.blog {
       flex-direction: column;
       justify-content: space-evenly;
 
-
       &__img {
         height: 60%;
         background-size: cover;
-
       }
 
       &__h1 {
@@ -761,7 +724,7 @@ section.blog {
 
       &__h2 {
         font-size: 1.5rem;
-        color: #15263E;
+        color: #15263e;
         font-weight: 900;
       }
 
@@ -773,7 +736,6 @@ section.blog {
 
       .img1 {
         background-image: url(/img/blog-img-1.png);
-
       }
 
       .img2 {
@@ -797,8 +759,7 @@ section.footer {
     &--form {
       width: 90%;
       height: 90%;
-      background-color: #15263E;
-
+      background-color: #15263e;
 
       &__heading {
         @include flex-center;
@@ -817,7 +778,7 @@ section.footer {
           font-size: 1.1rem;
           letter-spacing: 0.2rem;
           font-weight: 400;
-          font-family: 'Roboto', sans-serif;
+          font-family: "Roboto", sans-serif;
           text-align: center;
           padding-top: 1rem;
         }
@@ -828,7 +789,6 @@ section.footer {
         height: 85%;
         @include flex-center;
         justify-content: space-evenly;
-
 
         :nth-child(4) {
           width: 60%;
@@ -856,11 +816,7 @@ section.footer {
           padding: 1rem 1rem;
         }
       }
-
     }
-
-
-
   }
 }
 
@@ -869,7 +825,6 @@ footer {
   @include flex-center;
 
   .footer {
-
     font-size: 1.3rem;
   }
 }
@@ -877,26 +832,20 @@ footer {
 .fa-times:before,
 .fa-bars:before {
   font-size: 5rem;
-  color: #15263E;
+  color: #15263e;
 }
 
 .fa-times:before {
   display: none;
 }
 
-
-
-
-
 @media only screen and (min-width: 768px) {
-
   * {
     font-size: 15px;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-
   * {
     font-size: 15px;
 
@@ -954,13 +903,10 @@ footer {
             order: 2;
             text-align: center;
           }
-
         }
       }
     }
   }
-
-
 
   .portfolio {
     height: 160vh;
@@ -970,7 +916,8 @@ footer {
       grid-template-columns: 1fr 2fr 2fr;
       grid-template-rows: 1fr 1fr 1fr;
       grid-column-gap: 2rem;
-      grid-template-areas: "menu img1 img2"
+      grid-template-areas:
+        "menu img1 img2"
         "menu img3 img4"
         "menu img5 img6";
     }
@@ -989,9 +936,11 @@ footer {
           background-size: 100% 100%;
         }
 
-        .img2 {}
+        .img2 {
+        }
 
-        .img3 {}
+        .img3 {
+        }
       }
 
       &--heading {
@@ -1005,8 +954,7 @@ footer {
         grid-column-gap: 1rem;
         grid-template-areas:
           "menu menu menu"
-          "1 2 3"
-        ;
+          "1 2 3";
       }
     }
   }
@@ -1024,11 +972,7 @@ footer {
         padding: 0;
         align-self: center;
         justify-content: space-evenly;
-
-
       }
-
-
 
       &__image {
         height: 100%;
@@ -1036,31 +980,24 @@ footer {
         background-size: 100% 100%;
       }
 
-
-
       &__chart {
         flex-basis: 30%;
         height: 100%;
 
         .skills {
-
-
           h3 {
             font-size: 1rem;
           }
 
-          .bar {}
+          .bar {
+          }
         }
       }
-
-
     }
   }
-
 }
 
 @media only screen and (max-width: 767px) {
-
   header {
     .nav--mobile {
       position: fixed;
@@ -1078,7 +1015,6 @@ footer {
         }
       }
 
-
       ul {
         flex-direction: column;
         text-align: center;
@@ -1087,9 +1023,8 @@ footer {
         li {
           display: block;
 
-
           a {
-            border-bottom: 1px solid rgba(0, 0, 0, .2);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
           }
         }
       }

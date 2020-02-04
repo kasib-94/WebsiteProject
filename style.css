@@ -78,7 +78,7 @@
   max-width: 1600px;
   font-size: 10px;
   list-style: none;
-  font-family: 'Nanum Gothic', "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Nanum Gothic", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -115,7 +115,7 @@ header .nav--mobile ul {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   line-height: 50px;
-  background-color: #15263E;
+  background-color: #15263e;
 }
 
 header .nav--mobile ul li {
@@ -138,7 +138,7 @@ header .nav--mobile ul li a:hover, header .nav--mobile ul li a.active {
 
 header .nav--mobile__toogle {
   display: none;
-  color: #15263E;
+  color: #15263e;
   font-size: 5rem;
   line-height: 5rem;
   position: fixed;
@@ -339,7 +339,7 @@ article .about--container__chart .skills .bar span.branding {
 section.contacts {
   padding: 1rem 0;
   height: 40vh;
-  background-color: #DCDCDE;
+  background-color: #dcdcde;
 }
 
 section.contacts .contact {
@@ -642,7 +642,7 @@ i {
 }
 
 .testimonials--wrapper__text::before {
-  content: '“';
+  content: "“";
   font-size: 6rem;
   position: absolute;
   top: 0%;
@@ -652,7 +652,7 @@ i {
 }
 
 .testimonials--wrapper__text::after {
-  content: '“';
+  content: "“";
   position: absolute;
   bottom: 0%;
   right: 5%;
@@ -714,7 +714,7 @@ i {
 
 .testimonials--wrapper__person div:nth-of-type(2) h2 {
   font-size: 1.5rem;
-  color: #C714D5;
+  color: #c714d5;
 }
 
 .portfolio {
@@ -794,7 +794,7 @@ i {
   padding: 1rem 1rem;
   line-height: 2rem;
   width: 100%;
-  color: #4D4D4D;
+  color: #4d4d4d;
 }
 
 .portfolio--container__menu p:hover {
@@ -872,7 +872,7 @@ section.experience .experience--heading h2 {
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
 
@@ -963,12 +963,12 @@ section.blog .blog--heading {
 
 section.blog .blog--heading__h1 {
   font-size: 2.5rem;
-  color: #15263E;
+  color: #15263e;
 }
 
 section.blog .blog--heading__h2 {
   font-size: 1.3rem;
-  color: #4D4D4D;
+  color: #4d4d4d;
 }
 
 section.blog .blog--item {
@@ -997,7 +997,7 @@ section.blog .blog--item__h1 {
 
 section.blog .blog--item__h2 {
   font-size: 1.5rem;
-  color: #15263E;
+  color: #15263e;
   font-weight: 900;
 }
 
@@ -1041,7 +1041,7 @@ section.footer {
 section.footer .footer--form {
   width: 90%;
   height: 90%;
-  background-color: #15263E;
+  background-color: #15263e;
 }
 
 section.footer .footer--form__heading {
@@ -1076,7 +1076,7 @@ section.footer .footer--form__heading :nth-child(2) {
   font-size: 1.1rem;
   letter-spacing: 0.2rem;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   padding-top: 1rem;
 }
@@ -1152,7 +1152,7 @@ footer .footer {
 .fa-times:before,
 .fa-bars:before {
   font-size: 5rem;
-  color: #15263E;
+  color: #15263e;
 }
 
 .fa-times:before {
