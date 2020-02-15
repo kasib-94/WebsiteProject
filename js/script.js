@@ -1,4 +1,4 @@
-// AOS.init();
+AOS.init();
 $("#designBar").waypoint(
   function() {
     $("#designBar").css("animation", "design 2s");
@@ -38,5 +38,6 @@ $("#boarding-bar").waypoint(
 $(document).ready(function() {
   $(".nav--mobile__toogle").click(function() {
     $("nav").toggleClass("active--nav");
+    $(".fa-times:before").css("display", "block");
   });
 });

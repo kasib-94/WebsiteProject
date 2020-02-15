@@ -60,9 +60,7 @@
   font-family: "Nanum Gothic", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
-  overflow-x: hidden;
-}
+body {}
 
 html {
   margin: auto;
@@ -71,7 +69,7 @@ html {
 header {
   position: relative;
   height: 101vh;
-  background-image: url(/Background.png);
+  background-image: url(/img/Background.png);
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: 55%;
@@ -79,7 +77,6 @@ header {
   .nav--mobile {
     position: absolute;
     width: 100%;
-    z-index: 999;
     transition: 0.5s;
 
     ul {
@@ -222,7 +219,7 @@ article {
     }
 
     &__image {
-      background-image: url(/Layer3.png);
+      background-image: url(/img/Layer3.png);
       height: 33%;
       background-repeat: no-repeat;
       background-size: cover;
@@ -451,7 +448,7 @@ i {
 
 .testimonials {
   height: 100vh;
-  background-image: url(/Rectangle.png);
+  background-image: url(/img/Rectangle.png);
   background-size: 250% 100%;
   background-repeat: no-repeat;
   background-position: 100%;
@@ -505,7 +502,7 @@ i {
       div:nth-of-type(1) {
         @include eclipse;
         border-radius: 100%;
-        background-image: url(/eclipse.png);
+        background-image: url(/img/eclipse.png);
         background-size: contain;
       }
 
@@ -588,27 +585,27 @@ i {
     }
 
     div:nth-of-type(7) {
-      background-image: url(/Summer-Beach-Party-Flyer-Template-Free-PSD.png);
+      background-image: url(/img/Summer-Beach-Party-Flyer-Template-Free-PSD.png);
     }
 
     div:nth-of-type(3) {
-      background-image: url(/Nature-Tri-Fold-Brochure-Template-Free-PSD.png);
+      background-image: url(/img/Nature-Tri-Fold-Brochure-Template-Free-PSD.png);
     }
 
     div:nth-of-type(2) {
-      background-image: url(/Restaurant-Table-Tent-Template-Free-PSD.png);
+      background-image: url(/img/Restaurant-Table-Tent-Template-Free-PSD.png);
     }
 
     div:nth-of-type(5) {
-      background-image: url(/Construction-Company-Website-Template-Free-PSD-D.png);
+      background-image: url(/img/Construction-Company-Website-Template-Free-PSD-D.png);
     }
 
     div:nth-of-type(6) {
-      background-image: url(/Creative-White-Business-Card-Free-PSD.png);
+      background-image: url(/img/Creative-White-Business-Card-Free-PSD.png);
     }
 
     div:nth-of-type(4) {
-      background-image: url(/Professional-Resume-CV-Template-Free-PSD.png);
+      background-image: url(/img/Professional-Resume-CV-Template-Free-PSD.png);
     }
   }
 }
@@ -735,15 +732,15 @@ section.blog {
       }
 
       .img1 {
-        background-image: url(/blog-img-1.png);
+        background-image: url(/img/blog-img-1.png);
       }
 
       .img2 {
-        background-image: url(/blog-img-2.png);
+        background-image: url(/img/blog-img-2.png);
       }
 
       .img3 {
-        background-image: url(/blog-img-3.png);
+        background-image: url(/img/blog-img-3.png);
       }
     }
   }
@@ -751,7 +748,7 @@ section.blog {
 
 section.footer {
   height: 100vh;
-  background-image: url(/contact-us-bgc.png);
+  background-image: url(/img/contact-us-bgc.png);
   background-size: cover;
   @include flex-center;
 
@@ -936,11 +933,9 @@ footer {
           background-size: 100% 100%;
         }
 
-        .img2 {
-        }
+        .img2 {}
 
-        .img3 {
-        }
+        .img3 {}
       }
 
       &--heading {
@@ -989,8 +984,7 @@ footer {
             font-size: 1rem;
           }
 
-          .bar {
-          }
+          .bar {}
         }
       }
     }
