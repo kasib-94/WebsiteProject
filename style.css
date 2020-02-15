@@ -317,6 +317,8 @@ article .about--container__chart .skills .bar span {
 
 article .about--container__chart .skills .bar span.design {
   width: 80%;
+  -webkit-animation: design 2s;
+          animation: design 2s;
 }
 
 article .about--container__chart .skills .bar span.photography {
@@ -1309,6 +1311,7 @@ footer .footer {
   }
   header .nav--mobile__toogle {
     display: block;
+    z-index: 999;
   }
   header .nav--mobile__toogle i .active {
     display: block;

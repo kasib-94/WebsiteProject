@@ -74,6 +74,7 @@ header {
   background-size: auto 100%;
   background-position: 55%;
 
+
   .nav--mobile {
     position: absolute;
     width: 100%;
@@ -261,7 +262,7 @@ article {
 
           span.design {
             width: 80%;
-            // animation: design 2s;
+            animation: design 2s;
           }
 
           span.photography {
@@ -1001,6 +1002,7 @@ footer {
 
       &__toogle {
         display: block;
+        z-index: 999;
 
         i {
           .active {

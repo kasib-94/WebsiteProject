@@ -1,4 +1,3 @@
-AOS.init();
 $("#designBar").waypoint(
   function() {
     $("#designBar").css("animation", "design 2s");
