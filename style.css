@@ -317,8 +317,6 @@ article .about--container__chart .skills .bar span {
 
 article .about--container__chart .skills .bar span.design {
   width: 80%;
-  -webkit-animation: design 2s;
-          animation: design 2s;
 }
 
 article .about--container__chart .skills .bar span.photography {
